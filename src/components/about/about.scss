@@ -1,0 +1,40 @@
+.about {
+  overflow: hidden;
+
+  .backgroundImage {
+    background-image: url("/public/stars.png");
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .wrapper {
+      border: 2px dashed white;
+      padding: 40px;
+      width: 40%;
+      height: 40%;
+      text-align: center;
+      background-color: #111132;
+      border-radius: 15px;
+      box-shadow: -10px 10px 2px white;
+
+
+      .header {
+        margin-bottom: 2rem;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+        letter-spacing: 2px;
+      }
+
+      p {
+        font-size: 22px;
+        font-weight: 200;
+      }
+    }
+  }
+}

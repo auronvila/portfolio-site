@@ -48,14 +48,14 @@ export default function Hero() {
           <motion.h2 variants={textVariants}>Auron Vila</motion.h2>
           <motion.h1 variants={textVariants}> Web Developer and UI designer</motion.h1>
           <motion.div variants={textVariants} className={'buttons'}>
-            <motion.button variants={textVariants}>See the latest works</motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.a href={'#Portfolio'} variants={textVariants}>See the latest works</motion.a>
+            <motion.a href={'#Contact'} variants={textVariants}>Contact Me</motion.a>
           </motion.div>
           <motion.img animate={'scrollButton'} variants={textVariants} src={'scroll.png'}/>
         </motion.div>
       </div>
       <motion.div initial={'initial'} animate={'animate'} variants={sliderVariants} className={'slidingTextContainer'}>
-        Writer Content Creator Influencer
+        Developer Designer Solution Solver
       </motion.div>
       <div className={'imageContainer'}>
         <img src={'auron.png'} alt={'hero image'}/>

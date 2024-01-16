@@ -20,28 +20,28 @@ export default function Navbar() {
                             animate={{opacity: 1, x: 0}}
                             transition={{delay: 0.2}}
                             href={'#'}>
-                            <img alt={'facebook'} src={'/facebook.png'}/>
+                            <img alt={'facebook'} src={'facebook.png'}/>
                         </motion.a>
                         <motion.a
                             initial={{opacity: 0, x: 150}}
                             animate={{opacity: 1, x: 0}}
                             transition={{delay: 0.3,duration:0.3}}
                             href={'#'}>
-                            <img alt={'instagram'} src={'/instagram.png'}/>
+                            <img alt={'instagram'} src={'instagram.png'}/>
                         </motion.a>
                         <motion.a
                             initial={{opacity: 0, x: 200}}
                             animate={{opacity: 1, x: 0}}
                             transition={{delay: 0.3,duration:0.4}}
                             href={'#'}>
-                            <img alt={'youtube'} src={'/youtube.png'}/>
+                            <img alt={'youtube'} src={'youtube.png'}/>
                         </motion.a>
                         <motion.a
                             initial={{opacity: 0, x: 250}}
                             animate={{opacity: 1, x: 0}}
                             transition={{delay: 0.3,duration:0.5}}
                             href={'#'}>
-                            <img alt={'dribbble'} src={'/dribbble.png'}/>
+                            <img alt={'dribbble'} src={'dribbble.png'}/>
                         </motion.a>
                     </div>
                 </div>

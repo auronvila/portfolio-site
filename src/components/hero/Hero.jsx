@@ -51,14 +51,14 @@ export default function Hero() {
             <motion.button variants={textVariants}>See the latest works</motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div>
-          <motion.img animate={'scrollButton'} variants={textVariants} src={'/scroll.png'}/>
+          <motion.img animate={'scrollButton'} variants={textVariants} src={'scroll.png'}/>
         </motion.div>
       </div>
       <motion.div initial={'initial'} animate={'animate'} variants={sliderVariants} className={'slidingTextContainer'}>
         Writer Content Creator Influencer
       </motion.div>
       <div className={'imageContainer'}>
-        <img src={'/auron.png'} alt={'hero image'}/>
+        <img src={'auron.png'} alt={'hero image'}/>
       </div>
     </div>
   )

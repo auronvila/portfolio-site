@@ -11,7 +11,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier --write . && git add -A ."
+      "pre-commit": "prettier --write . && git add -A .",
+      "pre-push": "git diff --cached --name-only | grep '.enc' && exit 1 || exit 0"
     }
   },
   "dependencies": {

@@ -26,7 +26,7 @@ export default function Services() {
   }
 
   return (
-    <motion.div animate={inView && 'animate'} ref={ref} className={'services'} variants={variants} initial={'initial'}>
+    <motion.div animate={/*inView &&*/ 'animate'} ref={ref} className={'services'} variants={variants} initial={'initial'}>
       <motion.div variants={variants} className={'textContainer'}><p>I focus test testes test</p>
         <hr/>
       </motion.div>

@@ -1,0 +1,69 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", "sans-serif";
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.course {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.course .box {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+.navbar {
+  height: 100px;
+}
+.navbar .wrapper {
+  max-width: 1366px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.navbar span {
+  font-weight: bold;
+}
+.navbar .social {
+  display: flex;
+  gap: 12px;
+}
+@media (max-width: 738px) {
+  .navbar .social {
+    margin-right: 2rem;
+    gap: 2rem;
+  }
+}
+.navbar .social img {
+  width: 18px;
+  height: 18px;
+}
+
+/*# sourceMappingURL=navbar.css.map */

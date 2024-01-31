@@ -39,7 +39,7 @@ export default function Portfolio() {
   function Single({item}) {
     const ref = useRef()
     const {scrollYProgress} = useScroll({target: ref, /*offset: ['start start', 'end start']*/});
-    const y = useTransform(scrollYProgress, [0, 1], [-900, 300])
+    const y = useTransform(scrollYProgress, [0, 0.75], [0, -300])
 
     return (
       <section >

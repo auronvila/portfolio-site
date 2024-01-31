@@ -5,7 +5,7 @@ export default function About() {
     <div className={'about'}>
       <div className={'backgroundImage'}>
         <div className={'wrapper'}>
-          <h4 className={'header'}>Who Am I & What I do</h4>
+          <h4 className={'header'}>Who Am I ?</h4>
           <p>
             As a dedicated Developer, I am passionate about my work and consistently strive to update my knowledge every
             day. With extensive experience in React and TypeScript, I have successfully built numerous websites using
